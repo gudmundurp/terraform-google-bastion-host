@@ -101,6 +101,7 @@ If the user does not share the same domain as the org the bastion is in, you wil
 | subnet | Self link for the subnet on which the Bastion should live. Can be private when using IAP | `string` | n/a | yes |
 | tags | Network tags, provided as a list | `list(string)` | `[]` | no |
 | zone | The primary zone where the bastion host will live | `string` | `"us-central1-a"` | no |
+| network\_ip | Private IP address to assign to the instance if desired. | `string` | `""` | no |
 
 ## Outputs
 

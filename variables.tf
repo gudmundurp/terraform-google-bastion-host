@@ -235,3 +235,9 @@ variable "create_firewall_rule" {
   description = "If we need to create the firewall rule or not."
   default     = true
 }
+
+variable "network_ip" {
+  type        = string
+  description = "Private IP address to assign to the instance if desired."
+  default     = ""
+}

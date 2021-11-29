@@ -67,6 +67,8 @@ module "instance_template" {
   tags   = var.tags
   labels = var.labels
 
+  network_ip = var.network_ip
+
   metadata = merge(
     var.metadata,
     {
